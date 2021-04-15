@@ -1,0 +1,92 @@
+/*  BG Black: #212121
+    BG Dark Purple: #B362F7
+    BG Medium Purple: #C580FF
+    BG Light Purple: #D19AFF
+    Grey text: #ABABAB 
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,300&display=swap');
+
+
+/* ------------------------------------------------------------------- */
+/* ----------------------main & header properties--------------------- */
+/* ------------------------------------------------------------------- */
+
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #212121;
+    color: #ABABAB;
+}
+
+#hb1{
+    height: 270px;
+    background-color: #B362F7;
+}
+
+#hb2{
+    height: 400px;
+    background-color: #C580FF;
+}
+
+#intro{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    left: 0px;
+    top: 170px;
+    width: 100vw;
+    z-index: 2;
+    text-align: center;
+}
+
+#intro img{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    border: 7px solid #D19AFF;
+}
+
+#intro h2, #intro p{
+    color: #fff;
+    width: 400px;
+}
+
+#intro p{
+    margin-top: 0;
+}
+
+nav{
+    height: 80px;
+    border-bottom: 1px solid #474747;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+    
+}
+
+.fixed-nav nav{
+    position: fixed;
+    top: 0;
+    z-index: 3;
+    background-color: #212121;
+    width: 100vw;
+}
+
+nav a{
+    padding: 0 30px;
+    text-decoration: none;
+    color: #ABABAB;
+}
+
+nav a:hover{
+    color: #fff;
+}
+
+nav a:nth-child(1){
+    color: #C580FF;
+}
