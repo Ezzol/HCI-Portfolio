@@ -70,7 +70,7 @@ nav{
 }
 
 .fixed-nav nav{
-    position: fixed;
+    position: sticky;
     top: 0;
     z-index: 3;
     background-color: #212121;
@@ -90,3 +90,4 @@ nav a:hover{
 nav a:nth-child(1){
     color: #C580FF;
 }
+
