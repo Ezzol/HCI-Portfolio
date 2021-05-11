@@ -28,16 +28,16 @@ const nav = document.getElementById('stickyNav');
     window.addEventListener('scroll', fixNav);
 
 
-var text = document.getElementsByClassName("text");
-var exampleimg = document.getElementsByClassName("exampleimg");
-exampleimg.addEventListener("mouseover", examplechange);
-exampleimg.addEventListener("mouseout", examplechangeback);
-function examplechange(event)
-{
- text.style.display = "block";
-}
+// var text = document.getElementsByClassName("text");
+// var exampleimg = document.getElementsByClassName("exampleimg");
+// exampleimg.addEventListener("mouseover", examplechange);
+// exampleimg.addEventListener("mouseout", examplechangeback);
+// function examplechange(event)
+// {
+//  text.style.display = "block";
+// }
 
-function examplechangeback()
-{
-  text.style.display = "none";
-}
+// function examplechangeback()
+// {
+//   text.style.display = "none";
+// }

@@ -6,11 +6,10 @@
         <link rel="shortcut icon" type="image/svg" href="img/brain2.svg"/>
         <link rel="stylesheet" href="main.css">
         <script src="script.js" defer></script>
-		<title>HCI Portfolio</title>
+		<title>HCI Portfolio | Home</title>
 	</head>
 	<body>
         <header>
-            <!-- De box met paarse blokken -->
             <div>
                 <div id="hb1"></div>
                 <div id="hb2"></div>
@@ -25,26 +24,22 @@
         </header>
 
         <nav id="stickyNav">
-            <a href="#">Home</a>
-            <a href="#">AR/VR</a>
-            <a href="#">Wearables</a>
-            <a href="#">Artificial Creatures</a>
-            <a href="#">Playful Interactions</a>
-            <a href="#">Workshops</a>
-            <a href="#">Gastlessen</a>
-            <a href="#">Labweken</a>
-
-            <!-- <ul>
-                <li></li>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">AR/VR</a></li>
-                <li><a href="#">Wearables</a></li>
-                <li><a href="#">Artificial Creatures</a></li>
-                <li><a href="#">Playful Interactions</a></li>
-                <li><a href="#">Workshops</a></li>
-                <li><a href="#">Gastlessen</a></li>
-                <li><a href="#">Labweken</a></li>
-            </ul> -->
+            <a href="#" class="current-nav-item linkitem">Home</a>
+            <a href="./assignments/arvr/arvr.html" class="linkitem hoverstate" >AR/VR</a>
+            <a href="./assignments/wearables/wearables.html" class="linkitem hoverstate">Wearables</a>
+            <a href="./assignments/artificialcreatures/artificialcreatures.html" class="linkitem hoverstate">Artificial Creatures</a>
+            <a href="./assignments/playfulinteractions/playfulinteractions.html" class="linkitem hoverstate">Playful Interactions</a>
+            <div class="dropdown">
+                <button class="dropbtn linkitem">Workshops</button>
+                <div class="dropdown-content">
+                    <a href="./workshops/unrealengine/unrealenige.html" class="hoverstate">Unreal Engine</a>
+                    <a href="./workshops/aframe/aframe.html" class="hoverstate">A-Frame</a>
+                    <a href="./workshops/arduino/arduino.html" class="hoverstate">Arduino</a>
+                    <a href="./workshops/computervision/computervision.html" class="hoverstate">Computer Vision</a>
+                </div>
+            </div>
+            <a href="./lectures/lectures.html" class="linkitem hoverstate">Gastlessen</a>
+            <a href="./assignments/labweken/labweken.html" class="linkitem hoverstate">Labweken</a>
         </nav>
 
         <main>
@@ -54,8 +49,7 @@
                     <p>Challenges</p>
                 </div>
                 <div>
-                    <!-- geef de a een class bijv. card -->
-                    <!-- a.card{ display: block}-->
+
                     <a href="#">
                         <img src="img/arvr.jpg" alt="Link naar AR/VR pagina" class="exampleimg" />
                         <h3 class="text">AR/VR</h3>
@@ -63,7 +57,6 @@
 
                     <a href="#">
                         <img src="img/wearables2.jpg" alt="Link naar Wearables pagina" class="exampleimg" />
-                        <!--just fixed size container with background-image , transform text from bottom to top on hover with good transition-->
                         <h3 class="text">Wearables</h3>
                     </a>
                     <a href="#">
