@@ -39,8 +39,6 @@ h3{
     background-position: 0% 25%;
     background-repeat: no-repeat;
     background-size: cover;
-    /* display: flex;
-    align-items: center; */
 }
 
 
@@ -81,9 +79,9 @@ nav a{
 }
 
 /* De button voor dropdown */
-.dropbtn{
+/* .dropbtn{
     cursor: pointer;
-}
+} */
 
 /* De button en het dropdown menu */
 .dropdown, .dropbtn{
