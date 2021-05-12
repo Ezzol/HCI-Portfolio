@@ -22,6 +22,7 @@ html, body{
 
 h1{
     color: #fff;
+    margin-bottom: 10px;
 }
 
 h1 span{
@@ -35,8 +36,8 @@ h3{
 #headerimg{
     height: 325px;
     width: 100%;
-    background-image: url(./img/arvr.jpg);
-    background-position: 0% 25%;
+    /* background-image: url(./img/arvr.jpg);
+    background-position: 0% 25%; */
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -150,7 +151,6 @@ main{
     display: inline-block;
     border-bottom: 1px solid #C580FF;
     padding: 0 10px;
-    height: 75px;
 }
 
 
