@@ -86,6 +86,7 @@ nav{
 .fixed-nav nav{
     position: sticky;
     top: 0;
+    left: 0;
     z-index: 3;
     background-color: #212121;
     width: 100vw;
