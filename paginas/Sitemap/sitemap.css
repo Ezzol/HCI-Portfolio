@@ -2,3 +2,11 @@
     background-image: url(../../img/arvr.jpg);
     background-position: 0% 25%;
 }
+
+main a{
+    color: #ABABAB;
+}
+
+main a:hover{
+    color: white;
+}

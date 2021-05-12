@@ -193,7 +193,7 @@ footer article h2{
     padding: 0 30px;
 }
 
-footer article a:link, footer article a:visited{
+#mailbtn:link, #mailbtn:visited{
     /* height: 50px; */
     border: 2px solid #B362F7;
     color: #212121;
@@ -204,7 +204,7 @@ footer article a:link, footer article a:visited{
     box-shadow: inset 0 0 0 0 #C580FF;
 }
 
-footer article a:hover{
+#mailbtn:hover{
     box-shadow: inset 400px 0 0 0 #B362F7;
     /* border: 2px solid #C580FF; */
 }
@@ -214,7 +214,13 @@ footer article:nth-child(2){
     justify-content: center;
 }
 
-footer article:nth-child(2) p{
+footer article:nth-child(2) p, footer article:nth-child(2) a{
     padding: 5px 30px;
     font-size: 0.8em;
+}
+
+footer article:nth-child(2) a{
+    text-align: center;
+    line-height: 40px;
+    color: #ABABAB;
 }
