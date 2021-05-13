@@ -18,7 +18,7 @@ html, body{
     font-family: 'Open Sans', sans-serif;
     background-color: #212121;
     color: #ABABAB;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 h1{
@@ -72,6 +72,10 @@ h3{
     margin-top: 0;
 }
 
+main{
+    position: relative;
+}
+
 nav{
     height: 80px;
     border-bottom: 1px solid #474747;
@@ -79,7 +83,10 @@ nav{
     align-items: center;
     display: flex;
     position: sticky;
-    /* overflow: hidden; */
+    top: 0;
+    left: 0;
+    background-color: #212121;
+    z-index: 10;
 }
 
 /* Nav wordt sticky bij een bepaald punt en krijgt dan deze class via JS */
