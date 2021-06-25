@@ -2,3 +2,57 @@
     background-image: url(../../img/arvr.jpg);
     background-position: 0% 25%;
 }
+
+
+.article-margin{
+    margin-top: 100px;
+}
+
+.img-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img-div{
+    height: 500px;
+    width: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    margin: 20px 20px 0 0;
+}
+
+/* .div-1{
+    background-image: url(./img/);
+} */
+
+.responsive-img{
+    width: 30%;
+    height: auto;
+    margin-right: 20px;
+}
+
+.responsive-img2{
+    width: 45%;
+    height: auto;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.responsive-img3{
+    width: 70%;
+    height: auto;
+    margin-right: 20px;
+}
+
+.responsive-img4{
+    width: 38%;
+    height: auto;
+    margin-right: 20px;
+}
+
+.responsive-img5{
+    width: 21.5%;
+    height: auto;
+    margin-left: 20px;
+}

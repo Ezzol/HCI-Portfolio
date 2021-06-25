@@ -2,3 +2,66 @@
     background-image: url(../../../img/arvr.jpg);
     background-position: 0% 25%;
 }
+
+.text-link{
+    color: #D19AFF;
+}
+
+.text-link:hover{
+    color: white;
+}
+/* 
+.text-link:visited{
+    color: white;
+} */
+
+.article-margin{
+    margin-top: 100px;
+}
+
+
+.img-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img-div{
+    height: 300px;
+    width: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    margin: 20px 20px 0 0;
+}
+
+.div-1{
+    background-image: url(../arvr/img/1-voorbeeld1.png);
+}
+
+.div-2{
+    background-image: url(../arvr/img/1-voorbeeld2.jpeg);
+}
+
+.div-3{
+    background-image: url(../arvr/img/1-voorbeeld3.jpg);
+}
+
+.div-4{
+    background-image: url(../arvr/img/2-voorbeeld1.png);
+}
+
+.div-5{
+    background-image: url(../arvr/img/2-voorbeeld2.jpg);
+}
+
+.div-6{
+    background-image: url(../arvr/img/3-voorbeeld1.jpeg);
+}
+
+.div-7{
+    background-image: url(../arvr/img/3-voorbeeld2.jpg);
+}
+
+.div-8{
+    background-image: url(./img/researchvr.png);
+}

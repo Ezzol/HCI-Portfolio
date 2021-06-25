@@ -2,3 +2,62 @@
     background-image: url(../../../img/playfulinteractions.jpeg);
     background-position: 0% 80%;
 }
+
+.text-link{
+    color: #D19AFF;
+}
+
+.text-link:hover{
+    color: white;
+}
+
+.article-margin{
+    margin-top: 100px;
+}
+
+.img-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img-div{
+    height: 400px;
+    width: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    margin: 20px 20px 0 0;
+}
+
+.img-div2{
+    height: 500px;
+    width: 1000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    margin: 20px 20px 0 0;
+}
+
+.div-1{
+    background-image: url(./img/brainstorm.jpg);
+}
+
+.div-2{
+    background-image: url(./img/schets1.jpg);
+}
+
+.div-3{
+    background-image: url(./img/schets2.jpg);
+}
+
+.div-4{
+    background-image: url(./img/concept1.jpg);
+}
+
+.div-5{
+    background-image: url(./img/concept2.jpg);
+}
+
+.div-6{
+    background-image: url(./img/zingendeweg.jpeg);
+}

@@ -2,3 +2,11 @@
     background-image: url(../../../img/arvr.jpg);
     background-position: 0% 25%;
 }
+
+.first-vid{
+    margin: 20px 20px 0 0;
+}
+
+#small{
+    font-size: .7em;
+}

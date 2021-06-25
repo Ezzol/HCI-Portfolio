@@ -2,3 +2,69 @@
     background-image: url(../../../img/arvr.jpg);
     background-position: 0% 25%;
 }
+
+.article-margin{
+    margin-top: 100px;
+}
+
+.article-margin a{
+    color: #D19AFF;
+}
+
+.article-margin a:hover{
+    color: white;
+}
+
+.img-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img-div{
+    height: 400px;
+    width: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    margin: 20px 20px 0 0;
+}
+
+.div-1{
+    background-image: url(../unrealengine/img/Stap_1.png);
+}
+
+.div-2{
+    background-image: url(../unrealengine/img/Stap_2.png);
+}
+
+.div-3{
+    background-image: url(../unrealengine/img/Stap_3.png);
+}
+
+.div-4{
+    background-image: url(../unrealengine/img/draaiendebanaan.gif);
+}
+
+.div-5{
+    background-image: url(../unrealengine/img/verdiepingsopdracht/Stap_1.png);
+}
+
+.div-6{
+    background-image: url(../unrealengine/img/verdiepingsopdracht/Stap_2.png);
+}
+
+.div-7{
+    background-image: url(../unrealengine/img/verdiepingsopdracht/Stap_3.png);
+}
+
+.div-8{
+    background-image: url(../unrealengine/img/verdiepingsopdracht/Stap_4.png);
+}
+
+.div-9{
+    background-image: url(../unrealengine/img/verdiepingsopdracht/Stap_5.png);
+}
+
+.div-10{
+    background-image: url(../unrealengine/img/verdiepingsopdracht/bananenspel.gif);
+}

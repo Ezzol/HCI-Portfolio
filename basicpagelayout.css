@@ -42,6 +42,9 @@ h3{
     background-size: cover;
 }
 
+p{
+    line-height: 1.8;
+}
 
 
 /* ------------------------------------------------------------------- */
@@ -143,7 +146,12 @@ nav a{
 /* ------------------------------------------------------------------- */
 
 main{
-    margin: 90px 50px;
+    margin: 90px auto;
+    width: 1100px;
+}
+
+article{
+    /* width: 80%; */
 }
 
 /* De titel van de pagina */
@@ -155,12 +163,12 @@ main{
 
 
 /* De articles na de titel */
-article div{
+/* article div{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 30px;
-}
+} */
 
 /* De tekst om een intro te geven over de content op de page */
 #page-intro{
@@ -224,3 +232,13 @@ footer article:nth-child(2) a{
     line-height: 40px;
     color: #ABABAB;
 }
+
+
+
+
+@media only screen and (max-width: 1200px) {
+    main{
+        width: 90%;
+    }
+}
+
